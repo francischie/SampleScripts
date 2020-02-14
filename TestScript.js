@@ -13,7 +13,9 @@ export default function() {
     "CouponInfo/3fff08e3-2138-40cd-befa-e6783deea312",
     "Product/1?languageCode=en-US",
     "Product?partNumber=DRB00077",
-    "SalesTax/_ping"
+    "SalesTax/_ping",
+    "Basket/CartCount/3fff08e3-2138-40cd-befa-e6783deea312",
+    "Warehouse"
   ];
 
   for(var i = 0; i < urls.length; i++) {
