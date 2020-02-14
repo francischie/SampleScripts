@@ -6,9 +6,7 @@ import { sleep, check } from "k6";
 export default function() {
   
   let urls = [
-    "Order/lastFiveOrder",
-    "Category/Url",
-    "Category/Name"
+    "Order/lastFiveOrder"
   ];
 
   for(var i = 0; i < urls.length; i++) {
