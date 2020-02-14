@@ -22,7 +22,7 @@ export default function() {
     let res = http.get("http://checkout-legacyv2-api.checkout.svc/api/v2/" + urls[i]);
     check(res, {
       "status was 200": (r) => r.status == 200,
-      //"transaction time OK": (r) => r.timings.duration < 1000
+      "transaction time OK": (r) => r.timings.duration < 1000
     });
   }
   sleep(1);
