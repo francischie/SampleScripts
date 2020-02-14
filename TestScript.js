@@ -7,7 +7,8 @@ export default function() {
   
   let urls = [
     "Order/lastFiveOrder",
-    "Category/url"
+    "Category/url",
+    "Category/name"
   ];
 
   for(var i = 0; i < urls.length; i++) {
